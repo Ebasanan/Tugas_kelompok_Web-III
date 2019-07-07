@@ -1,0 +1,24 @@
+.alert {
+    width: 99%;
+    padding: 13px 0px 13px 13px;
+    background-color: #da6a5f;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.alert-form {
+    width: 99%;
+    padding: 13px 0px 13px 13px;
+    background-color: #da6a5f;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    margin-top: 5px;
+    float: left;
+}

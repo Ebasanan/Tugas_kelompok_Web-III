@@ -1,0 +1,76 @@
+.table-responsive {
+	overflow-x: auto;
+	margin-top: 15px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+th { font-size: 15px; }
+
+td { font-size: 13px; }
+
+tr:nth-child(even) {
+	background-color: #d2dae2;
+}
+
+table .status-on {
+    background-color: #6db2e0;
+    padding: 5px;
+    color: #fff;
+    float: left;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+table .status-off {
+    background-color: #ea8685;
+    padding: 5px;
+    color: #fff;
+    float: left;
+    border-radius: 3px;
+}
+
+table .detail {
+    text-decoration: none;
+    background-color: #848484;
+    padding: 5px;
+    color: #fff;
+    float: left;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+table .detail:hover { background-color: #2d2d2d; }
+
+table .ubah {
+    text-decoration: none;
+    background-color: #1abc9c;
+    padding: 5px;
+    color: #fff;
+    float: left;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+table .ubah:hover { background-color: #18a98c; }
+
+table .hapus {
+    text-decoration: none;
+    background-color: #ea8685;
+    padding: 5px;
+    color: #fff;
+    float: left;
+    border-radius: 3px;
+}
+
+table .hapus:hover { background-color: #d05e5e; }

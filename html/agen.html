@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Chicken</title>
+
+	<link rel="icon" href="image/favicon.ico">
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<link href="css/navbar.css" rel="stylesheet">
+
+	<link href="css/main.css" rel="stylesheet">
+
+	<link href="css/table.css" rel="stylesheet">
+
+	<link href="css/pagination.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="navbar">
+
+		<a href="index.html" id="logo">
+
+			<img src="image/chicken.svg"><!-- .navbar #logo img -->
+
+			<div id="text-logo">Chicken</div><!-- .navbar #logo #text-logo -->
+
+		</a><!-- .navbar #logo -->
+
+		<ul>
+
+			<li>
+
+				<a href="admin.html">
+					Admin
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="agen.html" class="active">
+					Agen
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="satuan.html">
+					Satuan
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="kategori.html">
+					Kategori
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="menu.html">
+					Menu
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="pembelian.html">
+					Pembelian
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="penjualan.html">
+					Penjualan
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+		</ul><!-- .navbar ul -->
+
+		<a href="login.html" id="logout">
+			Logout (@admin)
+		</a><!-- .navbar #logout -->
+
+	</div><!-- .navbar -->
+
+	<div class="main">
+
+		<div class="header">
+			
+			<h1>Agen</h1><!-- .main .header h1 -->
+
+			<a href="agen-tambah.html" class="tambah">Tambah</a><!-- .main .header a -->
+
+			<form method="" name="formPencarianAgen">
+
+				<button type="submit">Cari</button><!-- .main .header button -->
+
+				<input type="text" name="" placeholder="Pencarian Agen"><!-- .main .header input[type=text] -->
+
+			</form><!-- .main .header form -->
+
+		</div><!-- .main .header -->
+
+		<div class="table-responsive">
+
+			<table>
+				
+				<tr>
+					<th>Kode Agen</th>
+					<th>Nama Agen</th>
+					<th>No Telepon</th>
+					<th>Status</th>
+					<th>Pilihan</th>
+				</tr>
+
+				<tr>
+
+					<td>AG00</td>
+					<td>Dwi Hartono</td>
+					<td>012345678912</td>
+
+					<td>
+
+						<div class="status-on">
+							On
+						</div><!-- .table .status-on -->
+
+						<div class="status-off">
+							Off
+						</div><!-- table .status-off -->
+
+					</td>
+
+					<td>
+
+						<a href="agen-ubah.html" class="ubah">
+							Ubah
+						</a><!-- table .ubah -->
+
+						<a href="agen-hapus.html" class="hapus">
+							Hapus
+						</a><!-- table .ha[us] -->
+
+					</td>
+
+				</tr>
+
+			</table><!-- table -->
+
+		</div><!-- .table-responsive -->
+
+		<div class="pagination">
+
+			<a href="">Sebelumnya</a>
+			<a href="">1</a>
+			<a href="" class="active">2</a>
+			<a href="">3</a>
+			<a href="">Selanjutnya</a>
+
+		</div><!-- .pagination -->
+
+	</div><!-- .main -->
+
+</body>
+
+</html>

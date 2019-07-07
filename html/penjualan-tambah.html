@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Chicken</title>
+
+	<link rel="icon" href="image/favicon.ico">
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<link href="css/navbar.css" rel="stylesheet">
+
+	<link href="css/main.css" rel="stylesheet">
+
+	<link href="css/table.css" rel="stylesheet">
+
+	<link href="css/pagination.css" rel="stylesheet">
+
+	<link href="css/card.css" rel="stylesheet">
+
+	<link href="css/alert.css" rel="stylesheet">
+
+	<link href="css/form.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="navbar">
+
+		<a href="index.html" id="logo">
+
+			<img src="image/chicken.svg"><!-- .navbar #logo img -->
+
+			<div id="text-logo">Chicken</div><!-- .navbar #logo #text-logo -->
+
+		</a><!-- .navbar #logo -->
+
+		<ul>
+
+			<li>
+
+				<a href="admin.html">
+					Admin
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="agen.html">
+					Agen
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="satuan.html">
+					Satuan
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="kategori.html">
+					Kategori
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="menu.html">
+					Menu
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="pembelian.html">
+					Pembelian
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+			<li>
+
+				<a href="penjualan.html" class="active">
+					Penjualan
+				</a><!-- .navbar li a -->
+
+			</li><!-- .navbar li -->
+
+		</ul><!-- .navbar ul -->
+
+		<a href="login.html" id="logout">
+			Logout (@admin)
+		</a><!-- .navbar #logout -->
+
+	</div><!-- .navbar -->
+
+	<div class="main">
+
+		<div class="header">
+			
+			<h1>Penjualan</h1><!-- .main .header h1 -->
+
+		</div><!-- .main .header -->
+
+		<div class="alert">
+			Error
+		</div><!-- .alert -->
+
+		<div class="card">
+
+			<div class="card-body">
+				
+				<h3 class="card-subtitle">Transaksi Penjualan Menu</h3><!-- .card .card-body .card-subtitle -->
+
+				<form method="" class="form" name="formItemMenu">
+
+					<label>Menu</label><!-- .card .form label -->
+					<select name="">
+						<option value="" selected>Pilih Menu</option>
+						<option value="">Paha Bawah</option>
+						<option value="">Paha Atas</option>
+					</select><!-- .card .form select -->
+					
+					<label>Jumlah Porsi</label><!-- .card .form label -->
+					<input type="text" name="" value="" placeholder="Jumlah Porsi"><!-- .card .form- input[type=text] -->
+
+					<button type="submit" name="">Pilih</button><!-- .card .form button -->
+
+				</form>
+
+			</div><!-- .card .card-body -->
+
+		</div><!-- .card -->
+
+		<div class="table-responsive">
+
+			<table>
+				
+				<tr>
+					<th colspan="6">Daftar Sementara Item Menu</th>
+				</tr>
+
+				<tr>
+					<th>Kode Item Menu</th>
+					<th>Nama Menu</th>
+					<th>Harga Menu</th>
+					<th>Jumlah Porsi</th>
+					<th>Total Harga Item Menu</th>
+					<th>Pilihan</th>
+				</tr>
+
+				<tr>
+
+					<td>Paha Bawah</td>
+					<td>Paha Bawah</td>
+					<td>Rp. 15.000</td>
+					<td>2</td>
+					<td>Rp. 30.000</td>
+
+					<td>
+
+						<a href="penjualan-item-ubah.html" class="ubah">
+							Ubah
+						</a><!-- table .ubah -->
+
+						<a href="penjualan-item-hapus.html" class="hapus">
+							Hapus
+						</a><!-- table .hapusp -->
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<td>Paha Atas</td>
+					<td>Rp. 16.000</td>
+					<td>2</td>
+					<td>Rp. 32.000</td>
+
+					<td>
+
+						<a href="penjualan-item-ubah.html" class="ubah">
+							Ubah
+						</a><!-- table .ubah -->
+
+						<a href="penjualan-item-hapus.html" class="hapus">
+							Hapus
+						</a><!-- table .ha[us] -->
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<td>Nasi</td>
+					<td>Rp. 5.000</td>
+					<td>4</td>
+					<td>Rp. 20.000</td>
+
+					<td>
+
+						<a href="penjualan-item-ubah.html" class="ubah">
+							Ubah
+						</a><!-- table .ubah -->
+
+						<a href="penjualan-item-hapus.html" class="hapus">
+							Hapus
+						</a><!-- table .ha[us] -->
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<td>Minuman Coca Cola</td>
+					<td>Rp. 7.000</td>
+					<td>4</td>
+					<td>Rp. 28.000</td>
+
+					<td>
+
+						<a href="penjualan-item-ubah.html" class="ubah">
+							Ubah
+						</a><!-- table .ubah -->
+
+						<a href="penjualan-item-hapus.html" class="hapus">
+							Hapus
+						</a><!-- table .ha[us] -->
+
+					</td>
+
+				</tr>
+
+			</table><!-- table -->
+
+		</div><!-- .table-responsive -->
+
+		<div class="card">
+
+			<div class="card-body">
+				
+				<h3 class="card-subtitle">Data Transaksi Penjualan Menu</h3><!-- .card .card-body .card-subtitle -->
+
+				<form method="" class="form" name="formItemBarang">
+					
+					<label>Kode Transaksi Penjualan</label><!-- .card .form label -->
+					<input type="text" disabled placeholder="JL00"><!-- .card .form- input[type=text] -->
+
+					<label>Total Porsi Menu</label><!-- .card .form label -->
+					<input type="text" disabled placeholder="12"><!-- .card .form input[type=text] -->
+
+					<label>Jumlah Biaya Pembayaran</label><!-- .card .form label -->
+					<input type="text" disabled placeholder="Rp. 110.000"><!-- .card .form input[type=text] -->
+
+					<label>Jumlah Uang Pembayaran</label><!-- .card .form label -->
+					<input type="text" name="" value="" placeholder="Masukkan nilai uang yang dibayar oleh pembeli"><!-- .card .form input[type=text] -->
+
+					<button type="submit" name="">Simpan Data Transaksi Pembelian Barang</button><!-- .card .form button -->
+
+				</form>
+
+			</div><!-- .card .card-body -->
+
+		</div><!-- .card -->
+
+	</div><!-- .main -->
+
+</body>
+
+</html>

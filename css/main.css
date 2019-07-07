@@ -1,0 +1,81 @@
+.main {
+    margin-top: 34px;
+    padding: 15px;
+}
+
+.main .container {
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 700px;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.main .container img {
+	max-width: 350px;
+    width: 350px;
+    margin: 15px;
+}
+
+.main .header {
+	overflow: hidden;
+	border-bottom: 1px solid #4b4b4b;
+}
+
+.main .header h1 {
+    float: left;
+    color: #4b4b4b;
+    font-size: 25px;
+}
+
+.main .header form { float: right; }
+
+.main .header input[type=text] {
+    padding: 10px;
+    margin: 5px 0px 5px 5px;
+    font-size: 14px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    float: right;
+    position: relative;
+    top: 10px;
+    border: 1px solid #ccc;
+}
+
+.main .header button {
+    padding: 10px;
+    margin: 5px 5px 5px -1px;
+    font-size: 14px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    float: right;
+    position: relative;
+    top: 10px;
+    border: 1px solid #6f6d6d;
+    cursor: pointer;
+    background-color: #6f6d6d;
+    color: #fff;
+}
+
+.main .header button:hover {
+	background-color: #4b4b4b;
+	border: 1px solid #4b4b4b;
+}
+
+.main .header a {
+	color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0px 5px 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #6db2e0;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+.main .header a:hover { background-color: #3498db; }

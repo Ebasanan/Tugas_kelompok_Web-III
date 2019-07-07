@@ -1,0 +1,79 @@
+.navbar {
+    overflow: hidden;
+    background-color: #4b4b4b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 49px;
+    z-index: 99;
+}
+
+.navbar #logo {
+	float: left;
+    margin-right: 35px;
+}
+
+.navbar #logo #text-logo {
+	position: relative;
+    float: right;
+    top: 16px;
+    left: 20px;
+    font-size: 18px;
+    color: #d2dae2;
+}
+
+.navbar #logo img {
+	width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    left: 12px;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navbar li { float: left; }
+
+.navbar li a {
+    display: block;
+    color: #d2dae2;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #d2dae2;
+}
+
+.navbar li a.active {
+	background-color: #2d2d2d;
+	border: 1px solid #2d2d2d;
+}
+
+.navbar li a:hover {
+	background-color: #d2dae2;
+	border: 1px solid #d2dae2;
+	color: #2d2d2d;
+}
+
+.navbar #logout {
+	color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #ea8685;
+    float: right;
+    position: relative;
+    top: -47px;
+}
+
+.navbar #logout:hover { background-color: #d05e5e; }

@@ -1,0 +1,61 @@
+.card .form label {
+	float: left;
+	font-size: 13px;
+}
+
+.card .form input[type=text] {
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 98.5%;
+    margin: 5px 0px 10px 0px;
+}
+
+.card .form input[type=password] {
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 98.5%;
+    margin: 5px 0px 10px 0px;
+}
+
+.card .form textarea {
+    padding: 10px;
+    width: 98.5%;
+    font-size: 13px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 5px 0px 10px 0px;
+}
+
+.card .form select {
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+}
+
+.card .form button {
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+    font-size: 14px;
+    border-radius: 3px;
+    float: right;
+    border: 1px solid #6f6d6d;
+    cursor: pointer;
+    background-color: #6f6d6d;
+    color: #fff;
+}
+
+.card .form button:hover {
+	background-color: #4b4b4b;
+	border: 1px solid #4b4b4b;
+}
